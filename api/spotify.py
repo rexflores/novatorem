@@ -80,7 +80,7 @@ def barGen(barCount):
     barCSS = ""
     left = 1
     for i in range(1, barCount + 1):
-        anim = random.randint(1000, 1350)
+        anim = random.randint(500, 1000)
         # below code generates random cubic-bezier values
         x1 = random.random()
         y1 = random.random()*2
